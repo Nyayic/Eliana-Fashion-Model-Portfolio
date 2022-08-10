@@ -1,3 +1,5 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
 body{
     margin: 0;
     background-color: #000;
@@ -8,8 +10,35 @@ body{
     
 }
 .navbar a{
-    color: #fff;
+    color: #F9F1F0;
     text-transform: uppercase;
+    padding: 10px 50px;
+    padding-left: 3rem;
+}
+.navbar a:hover{
+    border-bottom: 2px solid #E43480;
+    background-color: #E43480;
+    color: #000;
+}
+.navbar-brand{
     font-weight: 700;
-    padding: 0px 50px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: lowercase !important;
+    font-size: 3rem;
+}
+.navbar-brand span{
+    color: #E43480;
+}
+.navbar-brand span:hover{
+    color: #fff;
+}
+.navbar-toggler, .navbar-toggler-icon{
+    color: #F9F1F0 !important;
+}
+/* Buttons */
+.btn-primary{
+    background-color: #E43480 !important;
+    border: none;
+    padding: 10px 20px !important;
+    border-radius: 0px !important;
 }
