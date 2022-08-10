@@ -3,6 +3,15 @@
 body{
     margin: 0;
     background-color: #000;
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    font-size: 3rem;
+}
+h3{
+    color: #E43480;
+    font-weight: 300;
+    font-size: 2rem;
 }
 .navbar{
     background-color: #000;
@@ -41,4 +50,19 @@ body{
     border: none;
     padding: 10px 20px !important;
     border-radius: 0px !important;
+}
+.btn-outline-primary{
+    color: #E43480;
+    border: #E43480 !important;
+}
+
+/* Carousel */
+
+.carousel-caption{
+    text-align: left !important;
+    /* bottom: 14rem !important; */
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: #E43480;
+    padding: 10px;
 }
