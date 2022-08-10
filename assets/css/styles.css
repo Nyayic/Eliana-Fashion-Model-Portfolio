@@ -7,6 +7,7 @@ body{
 }
 h1{
     font-size: 3rem;
+    color: #fff;
 }
 h3{
     color: #E43480;
@@ -83,4 +84,11 @@ hr{
     width: 50px;
     color: #E43480 !important;
     opacity: 1.2;
+}
+.model-img{
+    height: 80px;
+    text-align: center !important;
+    border: 2px solid #E43480;
+    padding: 12px;
+    border-radius: 40px;
 }
