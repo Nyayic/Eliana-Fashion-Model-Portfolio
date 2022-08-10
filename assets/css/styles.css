@@ -66,3 +66,21 @@ h3{
 	background-color: #E43480;
     padding: 10px;
 }
+
+/* Cards */
+.card{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+    box-shadow: #E43480;
+    position: relative;
+    bottom: 40px;
+    box-shadow: rgba(99, 9, 64, 0.25) 0px 14px 28px, rgba(62, 59, 59, 0.22) 0px 10px 10px;
+
+    /* box-shadow: rgba(121, 62, 121, 0.25) 0px 13px 27px -5px, rgba(192, 60, 161, 0.3) 0px 8px 16px -8px;} */
+}
+hr{
+    width: 50px;
+    color: #E43480 !important;
+    opacity: 1.2;
+}
